@@ -23,6 +23,7 @@ There is no installation required simply search or click the link in the usage s
 ## Usage
 
 Simply follow or type the link to be directed to the following page.
+Follow or copy this link into your broswer [CSS-Responsive-Memo](https://innovative-j.github.io/CSS-Responsive-Memo/)
 
 ## Credits
 
