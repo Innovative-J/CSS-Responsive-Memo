@@ -8,7 +8,7 @@ The CSS Memo is to help provide a simple and useful resource for people who have
 - This webpages has short simple disdiscriptions to elements, properties and values. 
 - During the process of making this website I learna and applied CSS rules to practice most and other CSS into this page.
 
-## Table of Contents (Optional)
+## Table of Contents
 
 
 - [Installation](#installation)
