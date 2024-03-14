@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Memo</title>
+    <link rel="stylesheet" href="/assets/reset.css">
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Itim&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>CSS Memo</h1>
+            <p>This Webpage is created to become a Memo of all the CSS styles used throughout my journey. Its purpose is
+                to create shortcuts that anyone who comes across it.</p>
+        </header>
+    </div>
+
+    <!-- section 1 -->
+    <section>
+        <div class="box">
+            <h2>Flex box</h2>
+            <h4>Flex box is described as a one dimension layout model that uses properties to change and align elements
+                on its main and cross axis to make it responsive and dynamic.</h4>
+            <p>Sample text.</p>
+            <div class="scroll">
+                <p>Flex direction- row, sets items once in a flex container to be adjusted on its main axis.</p>
+                <pre>selector example{
+                    flex-direction:row;
+                }
+                </pre>
+                <p>Flex direction- -row-reverse, sets items once in a flex container to be adjusted on its main axis
+                    starting on a opposite direction.</p>
+                <pre>selector example{
+                    flex-direction:row-reverse;
+                }
+                </pre>
+            </div>
+        </div>
+        <div class="box">
+            <h2>Positioning</h2>
+            <h4>Positioningsets how and where the element is positioned in an doc with various properties.</h4>
+            <!-- added an extra div to make things scroll -->
+            <div class="scroll">
+                <p>Absolute, the element is removed from a normal document flow and is positioned relative to its
+                    nearest ancestor. It's values can be determined by its top, right, bottom and left values.</p>
+                <pre>selector example{
+                position:absolute;
+                top:10px;
+                right:20px;
+                bottom:30px;
+                left:40px;
+            }
+            </pre>
+                <p>Relative, the element is positioned from it's normal document flow and it is relative to itself. It's
+                    values can be determined by its top, right, bottom and left values.</p>
+                <pre>selector example{
+                position:relative;
+                top:10px;
+                right:20px;
+                bottom:30px;
+                left:40px;
+            }
+            </pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 2 -->
+    <section>
+        <div class="box">
+            <h2>Display</h2>
+            <h4>Display, defines how an element should be displayed as well as the layout and behavior within the doc
+                flow</h4>
+            <div class="scroll">
+                <p>Block, block elements generates a line break before and after an element forcing other elements into
+                    a new line</p>
+                <pre>selector example{
+                display:block;
+            }
+            </pre>
+                <p>Inline, generates a inline box that does not create a break before or after an element, as well as
+                    not forcing any elements into a new line. </p>
+                <pre>selector example{
+                    display:inline;
+     }
+                </pre>
+            </div>
+        </div>
+        <div class="box">
+            <h2>Fonts</h2>
+            <h4>Font, sets various font properties that correlate to its font family, size, style and various others to
+                create the ideal style for a all or specific font.</h4>
+            <div class="scroll">
+                <p>Font-family, this property sets or prioritizes one or multiple fonts.</p>
+                <pre>selector example{
+                font-family:sans-serif;
+     }
+     // This property sets the font-family style.//
+            </pre>
+                <p>Font-size, this sets the size of the font.</p>
+                <pre>selector example{
+                font-size:1em;
+     }
+     //This property sets the size to 1em which is the equivalent of 16px.//
+            </pre>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- section 3  -->
+    <section>
+        <div class="box">
+            <h2>The box model properties</h2>
+            <h4>The box model is essentailly a box that wraps every HTML element.</h4>
+            <div class="scroll">
+                <p>Padding, reffers to the space between the content and border which is set on all four sides at once.
+                </p>
+                <pre>.example {
+        padding: 10px 50px 30px 0px;
+    }
+        //The shorthand starts by top is 10px, right is 50px, bottom is 30px, and left is 0px.//
+            </pre>
+                <p>Border, sets the elements border. The border itself can have a style and color.</p>
+                <pre>.example {
+        border: 4px dashed rgba(211, 220, 50, .6);
+    }
+    // theh shorthand is the border being 4px, while being dashed and using a rgba to specify a color.//
+            </pre>
+                <p>Margin</p>
+                <pre>.example {
+        margin: 10px 50px 30px 20px;
+    }
+    //The shorthand starts by top is 10px, right is 50px, bottom is 30px, and left is 20px.//
+            </pre>
+            </div>
+        </div>
+        <div class="box">
+            <h2>Background properties</h2>
+            <h4>Background properties are used to design and modify the background. </h4>
+            <div class="scroll">
+                <p>Background-color, specifies the color of an element</p>
+                <pre>.example {
+    Background-color: color_name or (hex) or (rgba)
+ }
+            </pre>
+                <p>Adds one or more background images to an element.</p>
+                <pre>.example {
+    background-image: url('url_place-holder');
+            }
+            </pre>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- These are more boxes for the cheatsheet  -->
+    <!--  
+        <div class="box">
+            <h2>Media Queries</h2>
+            <p>Text example</p>
+            <pre>selector example{
+                Background-color:red;
+            }
+            </pre>
+        </div>
+        <div class="box">
+            <h2>Pseudo-elements</h2>
+            <p>Text example</p>
+            <pre>selector example{
+                Background-color:red;
+            }
+            </pre>
+        </div>
+        <div class="box">
+            <h2>Pseudo-classes</h2>
+            <p>Text example</p>
+            <pre>selector example{
+                Background-color:red;
+            }
+            </pre>
+        </div>
+        <div class="box">
+            <h2>Transitions</h2>
+            <p>Text example</p>
+            <pre>selector example{
+                Background-color:red;
+            }
+            </pre>
+        </div>
+        <div class="box">
+            <h2>Responsive design</h2>
+            <p>Text example</p>
+            <pre>selector example{
+                Background-color:red;
+            }
+            </pre>
+        </div>
+        
+        <div class="box">
+            <h2>Typogarphy</h2>
+            <p>Text example</p>
+            <pre>selector example{
+                Background-color:red;
+            }
+            </pre>
+        </div> 
+    -->
+
+
+</body>
+
+</html>
+
+
+
+<!-- fill in the information in each div with about 3 examples -->
+<!-- deploy the web page after pushing the project -->

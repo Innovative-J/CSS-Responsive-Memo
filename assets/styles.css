@@ -1,0 +1,110 @@
+/* standard style */
+body {
+    background-color: #8C9DAD;
+    color: ivory;
+    font-family: "Playfair Display", sans-serif, Times, serif;
+}
+
+/* header styles */
+header {
+    max-width: 800px;
+    width: 100%;
+    padding: auto;
+    /* padding goes from  top right bottom left, then top right&left the bottom, it also goes top&bottom then right&left  */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header h1 styles */
+header h1 {
+    color: ivory;
+    font-size: 3em;
+    margin: 40px 0px 20px;
+    text-align: center;
+    font-family: "Playfair Display", sans-serif, Times, serif;
+}
+
+/* header p styles */
+header p {
+    color: ivory;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+/* section styles */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+/* box style */
+.box {
+    flex-basis: 2 2 400px;
+    border: 2px solid ivory;
+    padding: 0px 15px 15px;
+    margin: 20px 20px;
+    max-height: 25%;
+    max-width: 30%;
+}
+
+h2 {
+    font-family: "Playfair Display", sans-serif, Times, serif;
+}
+
+/* created a div called scroll to make everything scoll */
+/* happy moment to ake everything fit and scroll */
+.scroll {
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+/* wrapped the text in the pre section */
+pre {
+    text-wrap: wrap;
+}
+
+/* commented text definition underlined out and added margin top and bottom */
+h4 {
+    /* text-decoration:underline; */
+    margin: -45px 0px 40px;
+}
+
+
+/* card header styles */
+.box h2 {
+    background-color: #8C9DAD;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: -1.5em;
+    padding: auto;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.box p {
+    margin: 0 0 10px 0;
+    text-wrap: wrap;
+}
+
+.box pre {
+    color: black;
+    margin: 15px;
+    user-select: all;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+.box:hover,
+.box:hover h2 {
+    box-shadow: inset 0px 0px 10px white;
+}
