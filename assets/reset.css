@@ -1,8 +1,8 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 html {
     height: 100%;
@@ -24,7 +24,12 @@ select,
 div,
 pre {
     font-size: 100%;
-    font-family: inherit;
+    font-family: sans-serif;
+}
+
+div.box {
+    padding: auto;
+    margin: ;
 }
 
 ol,
